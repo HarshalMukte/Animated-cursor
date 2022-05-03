@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated cursor</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- for fav-icon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="menu mouseActive">
+          <div class="menuIcon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="menuContent">MENU</div>
+        </div>
+        <div class="logo mouseActive">
+          <div id="logoOne">H</div>
+          <div id="logoTwo">M</div>
+        </div>
+        <div class="searchLogo mouseActive">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="box mouseActive">
+          <img src="images/one.jpg" alt="car_image" loading="lazy" />
+        </div>
+        <div class="box mouseActive">
+          <img src="images/two.jpg" alt="car_image" loading="lazy" />
+        </div>
+        <div class="box mouseActive">
+          <img src="images/three.jpg" alt="car_image" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursorTail"></div>
+  </body>
+</html>
